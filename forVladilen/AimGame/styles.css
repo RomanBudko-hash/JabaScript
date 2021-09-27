@@ -95,8 +95,23 @@ h1 {
 }
 
 .circle {
-  background: linear-gradient(90deg, #16D9E3 0%, #30C7EC 47%, #46AEF7 100%);
   position: absolute;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.time-bts{
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #f05b5b;
+  text-align: center;
+  color: #f05b5b;
+  font-family: inherit;
+  padding: .5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 25%;
+  transition: all 1s ease;
+}
+.time-bts:hover{
+  background-color: black;
 }
