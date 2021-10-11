@@ -32,8 +32,14 @@ body{
 }
 
 .nav button{
+    padding: 6px 14px;
     background-color:inherit;
-    border: none;
+    border: 1px solid #87509c;
+    border-radius: 5px;
     color: #fff;
     text-transform: uppercase;
+}
+
+.nav button:hover{
+    background-color: #643a79;
 }
