@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.frst-block{
+    background-color: #87509c;
+    height: 500px;
+}
+.container{
+    position: relative;
+    margin: 0px 110px;
+    padding-top: 60px;
+}
+
+.main-text{
+    margin-top: 150px;
+    text-align: center;
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: large;
+    font-weight: bold;
+    color:#fff;
+}
+
+.nav button{
+    background-color:inherit;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
