@@ -3,19 +3,21 @@ body{
     border: 0px;
     margin: 0px;
     padding: 0px;
-}
-.frst-block{
-    background-color: #87509c;
-    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
+    background-color: #87509c;
+    text-align: center;
+}
+.frst-block{
     position: relative;
     margin: 0px 110px;
     padding-top: 60px;
+    height: 350px;
 }
 
 .main-text{
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     color: #fff;
 }
@@ -26,7 +28,7 @@ body{
 }
 
 .logo{
-    font-size: large;
+    font-size:x-large;
     font-weight: bold;
     color:#fff;
 }
@@ -42,4 +44,32 @@ body{
 
 .nav button:hover{
     background-color: #643a79;
+}
+
+.yellow{
+    background-color: #eb7d4b;
+    margin-bottom: 150px;
+}
+
+.std-btn{
+    display: inline-block;
+    height: 50px;
+    width: 20%;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px auto;
+    text-transform: uppercase;
+    color:#fff;
+    border-radius: 5px;
+    border-color: #eb7d4b;
+    box-shadow:#c86a40 0em .7px 1em;
+}
+
+.std-btn:hover{
+    box-shadow: none;
+}
+
+.sec-block{
+    background-color:#17c2a4;
+    height: 500px;
 }
