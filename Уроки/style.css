@@ -40,11 +40,41 @@ body{
 }
 
 .container__text{
-    margin: 25px 63px 0 44px;
+    color: #273d46;
+    margin: 70px 0 0 140px;
     line-height: 25px;
+}
+
+.line-height{
+    margin: 25px 0 0 140px;
 }
 
 .container__order{
     list-style-type:none;
     margin: 60px 0 0 44px;
+}
+
+.container__order{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 0 0 140px;
+    line-height: 25px;
+}
+
+.container__second-line{
+    color: #80b7b3;
+    font-style: oblique;
+}
+
+.li::before{
+    content: url('/img/li.svg');
+    margin: 0 10px 0 0;
+}
+
+.container__third-line{
+    font-weight: bold;
+}
+
+.container__forth-line{
+    text-decoration: line-through;
+    color: #273d46;
 }
