@@ -31,9 +31,20 @@ body{
     text-align: center;
 }
 .image{
+    margin-top: 70px;
     background: url('/img/light-man.png') no-repeat;
     background-size: contain;
     height: 537px;
     border: 15px solid #ffffff;
     filter: drop-shadow(0px 15px 32.5px rgba(15, 16, 16, 0.15));
+}
+
+.container__text{
+    margin: 25px 63px 0 44px;
+    line-height: 25px;
+}
+
+.container__order{
+    list-style-type:none;
+    margin: 60px 0 0 44px;
 }
